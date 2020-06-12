@@ -18,9 +18,9 @@ Linux Ubuntu.
 | Linux Ubuntu | remote machine at SURF HPC Cloud | [link](linux-ubuntu-client-to-remote-machine-at-surf-hpc-cloud/README.md) |
 | Linux Ubuntu | local machine via Docker         | [link](linux-ubuntu-client-to-local-machine-via-docker/README.md) |
 | Linux Ubuntu | local machine via VirtualBox     | [link](linux-ubuntu-client-to-local-machine-via-virtualbox/README.md) |
-| Mac | - | - |
-| Mac | - | - |
-| Mac | - | - |
-| Windows | - | - |
-| Windows | - | - |
-| Windows | - | - |
+| Mac          | remote machine at SURF HPC Cloud | - |
+| Mac          | local machine via Docker | - |
+| Mac          | local machine via VirtualBox | - |
+| Windows      | remote machine at SURF HPC Cloud | - |
+| Windows      | local machine via Docker | - |
+| Windows      | local machine via VirtualBox | - |
