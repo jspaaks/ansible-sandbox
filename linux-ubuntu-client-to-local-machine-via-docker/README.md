@@ -14,7 +14,7 @@ Describe general layout of the approach
 ## client side configuration
 
 - install ansible from PPA (mind the version)
-- install openssh
+- install openssh-client
 - generate key pair
 - copy key pair to server
 - test ssh -i keyfile -p 2222 username@127.0.0.1|localhost
