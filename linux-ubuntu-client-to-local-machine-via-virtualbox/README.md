@@ -2,22 +2,19 @@
 
 Describe general layout of the approach
 
-## prerequisites
+## Prerequisites
 
-Use VirtualBox for virtualization.
+1. Install VirtualBox on the client: https://www.virtualbox.org/wiki/Linux_Downloads
+1. Download Ubuntu 18.04.4-desktop image from http://releases.ubuntu.com/18.04/
 
-- Windows: https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-Win.exe
-- OS X: https://download.virtualbox.org/virtualbox/6.0.10/VirtualBox-6.0.10-132072-OSX.dmg
-- Linux: https://www.virtualbox.org/wiki/Linux_Downloads
+## Server side configuration
 
-## server side configuration
-
-1. Create a virtual machine in VirtualBox using Ubuntu 18.04.4-desktop as a base image. Get the .iso here http://releases.ubuntu.com/18.04/
+1. Create a new virtual machine in VirtualBox using Ubuntu 18.04.4-desktop as a base image.
 1. Configure the VM with at least 2 CPUs.
 1. Configure main memory to use 4 GB.
 1. Configure video memory to use the maximum of 128 MB.
 1. Call the user ``tester``
-1. Set his password to ``password``
+1. Set the user's password to ``password``
 1. Update packages
 
     ```
@@ -59,7 +56,7 @@ Use VirtualBox for virtualization.
             1. Under ``Guest Port`` fill in ``22``
 
 
-## client side configuration
+## Client side configuration
 
 1. Install Ansible (from PPA; the version you get from the Ubuntu repositories is too old).
 
