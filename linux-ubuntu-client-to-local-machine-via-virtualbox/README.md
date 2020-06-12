@@ -36,12 +36,12 @@ Describe general layout of the approach
 1. Configure port forwarding
 
     1. Get the IP address of the VM
+        
+        ```shell
+        sudo apt install net-tools
+        ```
 
-    ```
-    sudo apt install net-tools
-    ```
-
-    In the VM, open a terminal and type ``ifconfig``. Look for an entry that has an ``inet`` value starting with ``10.`` (mine is ``10.0.2.15``). We will use this value as Guest IP later.
+        In the VM, open a terminal and type ``ifconfig``. Look for an entry that has an ``inet`` value starting with ``10.`` (mine is ``10.0.2.15``). We will use this value as Guest IP later.
 
     1. In VirtualBox, change the port forwarding settings, as follows:
         1. Go to menu item ``Machine``
