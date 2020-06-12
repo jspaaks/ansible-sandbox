@@ -1,0 +1,3 @@
+# don't commit any key files from anywhere in the tree
+*/**/id_rsa
+*/**/id_rsa.pub
